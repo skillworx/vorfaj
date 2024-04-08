@@ -55,7 +55,7 @@ h5 {
 	margin-top: 50px;
 }
 .myButton:hover {
-	background-color: #BA2222;
+	background-color: #1769F9;
 	color: white;
 }
 .myButton:active {
@@ -75,7 +75,7 @@ h5 {
 
 .pageTop {
 	font-size: 18px;
-	background-color: #FAFDF3;
+	background-color: #1769F9;
 	font-weight: bold;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -99,15 +99,12 @@ background-attachment: scroll;
 }
 
 .bgIndex {
-    height: 100vh;
-	background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../img/3.jpg);
-    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(../img/3.jpg);
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: 35%;
-    background-attachment: scroll;
-    padding-top: calc((100vh - 280px)/2);
+    background-position: center;
+    padding-top: calc((100vh - 100px)/2);
     box-sizing: border-box;
-
 }
 
 .contactPage {
@@ -187,7 +184,7 @@ background-attachment: scroll;
      position: absolute;
      height: 3px;
      width: 100%;
-     background: #BA2222;
+     background: #1769F9;
      border-radius: 1px;
      opacity: 1;
      left: 0;
@@ -235,7 +232,7 @@ background-attachment: scroll;
 }
 
 .navbar a:hover {
-    color: #BA2222;
+    color: #1769F9;
 }
 
 .brandLogo{
@@ -246,7 +243,7 @@ background-attachment: scroll;
 /*intro*/
 .sectionTitles {
 	font-size: 50px;
-	color: #BA2222;
+	color: #1769F9;
 }
 
 .intro {
@@ -270,7 +267,7 @@ background-attachment: scroll;
 .servicesTitle {
 	display: inline-block;
 	font-size: 50px;
-	color: #BA2222;
+	color: #1769F9;
 	text-align: center;
 	padding-bottom: 20px;
 }
@@ -286,7 +283,7 @@ background-attachment: scroll;
 
 .servicesHeadline{
 	font-size: 32px;
-	color: #BA2222;
+	color: #1769F9;
 }
 	
 
@@ -401,7 +398,7 @@ form select option {
 form button {
     padding: 15px;
     color: white;
-    background: #BA2222;
+    background: #1769F9;
     font-size: 18px;
     border: 0;
     outline: none;
@@ -472,7 +469,7 @@ form button {
 	font-size: 24px;
 	font-weight: bold;
 	line-height: 20px;
-	color: #BA2222;
+	color: #1769F9;
 }
 
 .accentuateContact{
